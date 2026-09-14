@@ -1,0 +1,11 @@
+Do zmiany w kodzie:
+
+SPI
+Bemf Divider (2.25 nie 15.7)
+Deadtime / SW dead-time (sprzętowy zamiast programowego)
+Driver Protection do nFault (PC6)                         // 
+Pzypisanie kanałów ADC do konkretnych faz!!!              // zmieniono w define w bemf_ADC_fdbk_sixstep.c oraz w mc_config_common.c
+wyczyszczono PA11 (TIM_1 BRK)
+zmieniono prescaler w SPI (z 2 na 32)
+
+UWAGA: Zmiany tutaj poczynione nadpisują się za każdym razem gdy na nowo wygenerujesz kod!!!

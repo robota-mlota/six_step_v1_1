@@ -1,0 +1,44 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+#*.ld
+
+# Compiled binaries
+*.bin
+*.elf
+*.hex
+*.map
+
+# Eclipse workfiles
+*.xml
+Debug
+Release
+
+# CooCox workfiles
+*.cogui
+*.comarker
+#*.coproj
+*.pbxproj
+*.comemgui
+debug.config
+
+# JLink
+*.jflash
+
+# Trash
+*.bak
+
+# My stuff
+mystuff/
+
+six_step_v1.stwb6
